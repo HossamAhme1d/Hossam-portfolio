@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hossam Ahmed — Front-End Developer portfolio featuring responsive web projects, skills, and certificates.">
+    <meta name="theme-color" content="#0b0d12">
+    <title>Hossam | Front-End Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="#home" class="logo" aria-label="Hossam home"><span>H</span>ossam</a>
+
+            <nav id="site-nav" aria-label="Main navigation">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="icon-btn" type="button" aria-label="Switch to light mode" title="Switch theme">
+                    <i class="fas fa-moon" aria-hidden="true"></i>
+                </button>
+                <button id="menu-toggle" class="icon-btn menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section id="home" class="hero-section">
+            <div class="hero-glow glow-one" aria-hidden="true"></div>
+            <div class="hero-glow glow-two" aria-hidden="true"></div>
+            <div class="container hero-container">
+                <div class="hero-text" data-aos="fade-right">
+                    <div class="hero-badge"><span></span> Front-End Developer</div>
+                    <h1>Hello, I'm <span class="highlight">Hossam</span></h1>
+                    <h2>I build modern, responsive web experiences.</h2>
+                    <p class="hero-description">
+                        I create clean interfaces with HTML, CSS, JavaScript, and React, focusing on responsive layouts, thoughtful UI, and smooth interactions.
+                    </p>
+
+                    <div class="social-icons" aria-label="Social links">
+                        <a href="https://github.com/HossamAhme1d" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/hossam-ahmed-a3a792415" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+
+                    <div class="btn-group">
+                        <a href="#projects" class="btn primary-btn">View Projects <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                        <a href="#contact" class="btn secondary-btn">Let's Talk</a>
+                    </div>
+
+                    <div class="hero-stats" aria-label="Portfolio highlights">
+                        <div><strong>2</strong><span>Featured Projects</span></div>
+                        <div><strong>2</strong><span>Certificates</span></div>
+                        <div><strong>6</strong><span>Core Skills</span></div>
+                    </div>
+                </div>
+
+                <div class="hero-visual" data-aos="fade-left">
+                    <div class="orbit orbit-one" aria-hidden="true"></div>
+                    <div class="orbit orbit-two" aria-hidden="true"></div>
+                    <div class="hero-img-ring">
+                        <img src="assets/Hossam.jpg.jpg" alt="Portrait of Hossam" loading="eager">
+                    </div>
+                    <div class="floating-card card-code"><i class="fas fa-code" aria-hidden="true"></i><span>Clean Code</span></div>
+                    <div class="floating-card card-responsive"><i class="fas fa-mobile-screen-button" aria-hidden="true"></i><span>Responsive UI</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="about-section">
+            <div class="container about-grid" data-aos="fade-up">
+                <div>
+                    <p class="section-kicker">About Me</p>
+                    <h3 class="section-title left-title">Building with <span class="highlight">curiosity</span>.</h3>
+                </div>
+                <div class="about-copy">
+                    <p>I'm a high school student focused on science and mathematics, with a strong interest in front-end development and user interface design.</p>
+                    <p>I enjoy turning ideas into responsive websites and learning by building real projects, experimenting with UI details, and improving my code.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section id="services" class="section services-section">
+            <div class="container">
+                <p class="section-kicker center-kicker">What I Do</p>
+                <h3 class="section-title" data-aos="fade-down">My <span class="highlight">Services</span></h3>
+                <div class="services-grid">
+                    <article class="service-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-icon"><i class="fas fa-laptop-code" aria-hidden="true"></i></div>
+                        <h4>Responsive Web Design</h4>
+                        <p>Creating interfaces that adapt smoothly across mobiles, tablets, and desktops.</p>
+                    </article>
+                    <article class="service-card" data-aos="fade-up" data-aos-delay="180">
+                        <div class="service-icon"><i class="fas fa-code" aria-hidden="true"></i></div>
+                        <h4>Front-End Development</h4>
+                        <p>Turning ideas and UI designs into clean, structured, and interactive front-end code.</p>
+                    </article>
+                    <article class="service-card" data-aos="fade-up" data-aos-delay="260">
+                        <div class="service-icon"><i class="fas fa-screwdriver-wrench" aria-hidden="true"></i></div>
+                        <h4>Website Improvements</h4>
+                        <p>Fixing layout issues, polishing existing pages, and adding useful front-end features.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <p class="section-kicker center-kicker">My Toolkit</p>
+                <h3 class="section-title" data-aos="fade-down">Skills that I <span class="highlight">use</span>.</h3>
+                <div class="skills-grid">
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="80"><i class="fab fa-html5"></i><div><strong>HTML5</strong><span>Semantic structure</span></div></div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="130"><i class="fab fa-css3-alt"></i><div><strong>CSS3</strong><span>Flexbox & Grid</span></div></div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="180"><i class="fab fa-js"></i><div><strong>JavaScript</strong><span>ES6+ interactions</span></div></div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="230"><i class="fab fa-react"></i><div><strong>React.js</strong><span>Component-based UI</span></div></div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="280"><i class="fas fa-mobile-screen-button"></i><div><strong>Responsive Design</strong><span>Mobile-first thinking</span></div></div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="330"><i class="fab fa-git-alt"></i><div><strong>Git & GitHub</strong><span>Version control</span></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <div class="section-heading-row">
+                    <div>
+                        <p class="section-kicker">Selected Work</p>
+                        <h3 class="section-title left-title">Featured <span class="highlight">Projects</span></h3>
+                    </div>
+                    <p class="section-heading-note">A small collection of front-end work built to practice real UI, responsiveness, and interaction.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-preview shopify-preview" aria-label="Stylized preview of the Shopify e-commerce project">
+                            <div class="browser-bar"><span></span><span></span><span></span><b>shopify-demo</b></div>
+                            <div class="preview-body">
+                                <div class="preview-nav"><strong>SHOP</strong><span>Products</span><span>Cart</span></div>
+                                <div class="product-row">
+                                    <div class="product-tile"><i class="fas fa-headphones"></i><b>Product</b><small>$49</small></div>
+                                    <div class="product-tile"><i class="fas fa-camera"></i><b>Product</b><small>$79</small></div>
+                                    <div class="product-tile"><i class="fas fa-watch-smart"></i><b>Product</b><small>$59</small></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-meta"><span>01</span><span>E-Commerce Front-End</span></div>
+                            <h4>Shopify E-Commerce Demo</h4>
+                            <p>A responsive e-commerce interface focused on product presentation, cart flow, and a clean shopping experience.</p>
+                            <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                            <div class="project-actions">
+                                <a href="https://hossamahme1d.github.io/Shopify-ecommerce-demo/" target="_blank" rel="noopener noreferrer" class="project-btn primary-project-btn">Live Demo <i class="fas fa-arrow-up-right-from-square"></i></a>
+                                <a href="https://github.com/HossamAhme1d?tab=repositories" target="_blank" rel="noopener noreferrer" class="project-btn secondary-project-btn">GitHub <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-aos="fade-up" data-aos-delay="180">
+                        <div class="project-preview coffee-preview" aria-label="Stylized preview of the Coffee Shop project">
+                            <div class="browser-bar"><span></span><span></span><span></span><b>coffee-shop</b></div>
+                            <div class="coffee-preview-body">
+                                <div class="coffee-copy"><small>GOOD MORNING</small><strong>Fresh coffee.<br>Good mood.</strong><em>Explore our menu</em></div>
+                                <div class="coffee-cup"><i class="fas fa-mug-hot"></i></div>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-meta"><span>02</span><span>Landing Page</span></div>
+                            <h4>Coffee Shop Website</h4>
+                            <p>A modern coffee shop landing page with menu sections, cozy visual styling, and a responsive layout.</p>
+                            <div class="tag-list"><span>HTML</span><span>CSS</span><span>Responsive</span></div>
+                            <div class="project-actions">
+                                <a href="https://hossamahme1d.github.io/coffee-shop/" target="_blank" rel="noopener noreferrer" class="project-btn primary-project-btn">Live Demo <i class="fas fa-arrow-up-right-from-square"></i></a>
+                                <a href="https://github.com/HossamAhme1d?tab=repositories" target="_blank" rel="noopener noreferrer" class="project-btn secondary-project-btn">GitHub <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CERTIFICATES -->
+        <section id="certificates" class="section certificates-section">
+            <div class="container">
+                <div class="section-heading-row certificates-heading">
+                    <div>
+                        <p class="section-kicker">Verified Learning</p>
+                        <h3 class="section-title left-title">My <span class="highlight">Certificates</span></h3>
+                    </div>
+                    <p class="section-heading-note">Two milestones that show my continued learning journey in technology and web development.</p>
+                </div>
+
+                <div class="certificates-grid">
+                    <article class="cert-card" data-aos="fade-up" data-aos-delay="100">
+                        <a class="cert-image-link" href="assets/certificates/deci-level-2.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open Level Two certificate">
+                            <img src="assets/certificates/deci-level-2.png" alt="Hossam Ahmed Level Two certificate, October 2025" loading="lazy">
+                            <span class="image-overlay"><i class="fas fa-up-right-and-down-left-from-center"></i> View Certificate</span>
+                        </a>
+                        <div class="cert-body">
+                            <span class="cert-badge verified"><i class="fas fa-circle-check"></i> Verified</span>
+                            <p class="cert-issuer">Udacity</p>
+                            <h4>Level Two</h4>
+                            <p class="cert-description">Participation confirmed by Udacity.</p>
+                            <p class="cert-date"><i class="far fa-calendar"></i> October 2025</p>
+                            <div class="cert-actions">
+                                <a href="assets/certificates/deci-level-2.pdf" target="_blank" rel="noopener noreferrer" class="cert-btn">View Certificate</a>
+                                <a href="https://confirm.udacity.com/5SFSUHSE" target="_blank" rel="noopener noreferrer" class="cert-btn outline-btn">Verify</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="cert-card" data-aos="fade-up" data-aos-delay="180">
+                        <a class="cert-image-link" href="assets/certificates/deci-level-1.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open Level One certificate">
+                            <img src="assets/certificates/deci-level-1.png" alt="Hossam Ahmed Digital Egypt Cubs Initiative Level One certificate, October 2024" loading="lazy">
+                            <span class="image-overlay"><i class="fas fa-up-right-and-down-left-from-center"></i> View Certificate</span>
+                        </a>
+                        <div class="cert-body">
+                            <span class="cert-badge"><i class="fas fa-certificate"></i> Completed</span>
+                            <p class="cert-issuer">Digital Egypt Cubs Initiative (DECI)</p>
+                            <h4>Level One — Summer Program</h4>
+                            <p class="cert-description">Successfully completed the requirements of the Level 1 Summer Program.</p>
+                            <p class="cert-date"><i class="far fa-calendar"></i> October 2024</p>
+                            <div class="cert-actions">
+                                <a href="assets/certificates/deci-level-1.pdf" target="_blank" rel="noopener noreferrer" class="cert-btn">View Certificate</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section contact-section">
+            <div class="container contact-card" data-aos="fade-up">
+                <div class="contact-copy">
+                    <p class="section-kicker">Let's Connect</p>
+                    <h3 class="section-title left-title">Have an idea? <span class="highlight">Let's build it.</span></h3>
+                    <p>Have a question, idea, or project in mind? Send me a message and I'll get back to you.</p>
+                    <div class="contact-socials">
+                        <a href="https://github.com/HossamAhme1d" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/hossam-ahmed-a3a792415" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <form action="https://formspree.io/f/mnjldjbn" method="POST" class="contact-form">
+                    <label><span>Your Name</span><input type="text" name="name" placeholder="Your Name" required></label>
+                    <label><span>Your Email</span><input type="email" name="email" placeholder="Your Email" required></label>
+                    <label><span>Your Message</span><textarea name="message" rows="5" placeholder="Tell me a little about your idea..." required></textarea></label>
+                    <button type="submit" class="btn primary-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <a href="#home" id="scroll-top" class="scroll-top-btn" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></a>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo"><span>H</span>ossam</div>
+            <p>&copy; <span id="current-year"></span> Hossam. Built with passion & dedication.</p>
+            <a href="#home" class="footer-top">Back to top <i class="fas fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 750, once: true, offset: 70 });
+
+        const body = document.body;
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeIcon = themeToggle.querySelector('i');
+        const menuToggle = document.getElementById('menu-toggle');
+        const siteNav = document.getElementById('site-nav');
+        const scrollTop = document.getElementById('scroll-top');
+        const currentYear = document.getElementById('current-year');
+
+        currentYear.textContent = new Date().getFullYear();
+
+        if (localStorage.getItem('theme') === 'light') body.classList.add('light-mode');
+
+        function updateThemeButton() {
+            const isLight = body.classList.contains('light-mode');
+            themeIcon.classList.toggle('fa-sun', isLight);
+            themeIcon.classList.toggle('fa-moon', !isLight);
+            themeToggle.setAttribute('aria-label', isLight ? 'Switch to dark mode' : 'Switch to light mode');
+        }
+        updateThemeButton();
+
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('light-mode');
+            localStorage.setItem('theme', body.classList.contains('light-mode') ? 'light' : 'dark');
+            updateThemeButton();
+        });
+
+        menuToggle.addEventListener('click', () => {
+            const open = siteNav.classList.toggle('open');
+            menuToggle.setAttribute('aria-expanded', open);
+            menuToggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+            menuToggle.querySelector('i').classList.toggle('fa-bars', !open);
+            menuToggle.querySelector('i').classList.toggle('fa-xmark', open);
+        });
+
+        siteNav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                siteNav.classList.remove('open');
+                menuToggle.setAttribute('aria-expanded', 'false');
+                menuToggle.setAttribute('aria-label', 'Open menu');
+                menuToggle.querySelector('i').classList.add('fa-bars');
+                menuToggle.querySelector('i').classList.remove('fa-xmark');
+            });
+        });
+
+        window.addEventListener('scroll', () => {
+            scrollTop.classList.toggle('show', window.scrollY > 500);
+        }, { passive: true });
+    </script>
+</body>
+</html>
